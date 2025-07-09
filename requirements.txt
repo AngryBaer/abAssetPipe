@@ -1,0 +1,4 @@
+usd-core
+open3d
+pandas
+pytest
