@@ -28,11 +28,11 @@ def validate_dataset() -> tuple[bool, bool, list[tuple], list[tuple]]:
     Returns:
         Tuple(is_valid, is_empty, missing_keys, defaulted_keys)
     """
-    dataset = abJSON.read(PipePaths.DATASET.value)
-    return validate_data(dataset)
+    return validate_data(abJSON.read(PipePaths.DATASET.value))
 
 
 def validate_data(dataset):
+    """Validates the provided dataset against the template."""
     template = abJSON.read(PipePaths.TEMPLATE.value)
     missing_keys = []
     defaulted_keys = []
@@ -57,5 +57,4 @@ def print_dataset():
 
 def reset_dataset():
     """Resets the dataset to an empty state."""
-    abJSON.write(PipePaths.DATASET.value, {})
-    
+    abJSON.write(PipePaths.DATASET.value, [])

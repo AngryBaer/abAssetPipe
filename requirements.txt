@@ -1,4 +1,5 @@
 usd-core
 open3d
+numpy
 pandas
 pytest

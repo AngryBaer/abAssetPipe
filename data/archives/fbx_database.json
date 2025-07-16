@@ -1,0 +1,26 @@
+{
+    "0001": {
+        "file": "cone.fbx",
+        "name": "Cone",
+        "description": "A simple cone model",
+        "type": "primitives"
+    },
+    "0002": {
+        "file": "cube.fbx",
+        "name": "Cube",
+        "description": "A simple cube model",
+        "type": "primitives"
+    },
+    "0003": {
+        "file": "sphere.fbx",
+        "name": "Sphere",
+        "description": "A simple sphere model",
+        "type": "primitives"
+    },
+    "0004": {
+        "file": "cylinder.fbx",
+        "name": "Cylinder",
+        "description": "A simple cylinder model",
+        "type": "primitives"
+    }
+}
