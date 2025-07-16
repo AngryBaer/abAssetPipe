@@ -13,7 +13,3 @@ Converts `.fbx` files into `.usd` files using a Houdini Digital Asset. This proc
 The files are loaded by inserting their paths into the HDA file input parameter. The geometry is then transformed and scaled to Houdini units. The scale value can be adjusted as an input parameter. The result is exported again in `.usd` file format using the final output path parameter.
 
 ![FBX to USD HDA](images/fbx_to_usd_hda.png)
-
-## TODO:
-- compile a useful data set for machine learning purposes.
-- setup Jupyter notebook to visualise data

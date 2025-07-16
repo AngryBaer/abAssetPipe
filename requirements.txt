@@ -2,4 +2,5 @@ usd-core
 open3d
 numpy
 pandas
+matplotlib
 pytest
