@@ -101,24 +101,6 @@ class Asset():
         self._data["bbox"] = value
 
     @property
-    def volume(self) -> float:
-        """Get or set the volume of the asset."""
-        return self._data.get("volume", 0.0)
-
-    @volume.setter
-    def volume(self, value):
-        self._data["volume"] = value
-
-    @property
-    def watertight(self) -> bool:
-        """Get or set the watertight status of the asset."""
-        return self._data.get("watertight", False)
-
-    @watertight.setter
-    def watertight(self, value: bool):
-        self._data["watertight"] = value
-
-    @property
     def tags(self) -> list:
         """Get or set the tags associated with the asset."""
         return self._data["tags"]

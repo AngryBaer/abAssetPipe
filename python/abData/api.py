@@ -1,4 +1,4 @@
-"""WIP: This module provides a an API for the abData package."""
+"""This module provides a an API for the abData package."""
 from .core import assets, dataset
 
 
